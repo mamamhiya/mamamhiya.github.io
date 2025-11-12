@@ -3,66 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>โปรไฟล์ของฉัน</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .profile-container {
-            max-width: 500px;
-            margin: 50px auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            margin: 10px 0;
-            font-size: 24px;
-        }
-
-        p {
-            color: #555;
-            font-size: 16px;
-        }
-
-        .contact {
-            margin-top: 20px;
-        }
-
-        .contact a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>โปรไฟล์ของ วรมินทร์ แง่พรหม</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+    <header class="header">
+        <h1>Woramin Ngaeprom's Profile</h1>
+    </header>
+
     <div class="profile-container">
-        <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile-img">
-        <h1>Woramin Ngaeprom</h1>
-        <p>นักศึกษาชั้นปีที่2 สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏอุดรธานี</p>
-        <div class="contact">
-            <p>อีเมล: <a href="sukuyyo@gmail.com">sukuyyo@gmail.com</a></p>
-            <p>github: <a href="github homepage">https://github.com/mamamhiya</a></p>
+        <div class="profile-header">
+            <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile-img">
+            <h1>นาย: วรมินทร์ แง่พรหม</h1>
+            <p class="title-thai">นักศึกษาชั้นปีที่ 2 สาขาวิทยาการคอมพิวเตอร์</p>
+            <p class="title-eng">Computer Science Student, Udon Thani Rajabhat University</p>
         </div>
+        
+        <section class="section">
+            <h2>ความสนใจ</h2>
+            <ul class="skills-list">
+                <li>AI (ปัญญาประดิษฐ์)</li>
+                <li>Data Science (วิทยาศาสตร์ข้อมูล)</li>
+            </ul>
+        </section>
+
+        <section class="section skills">
+            <h2>🛠️ ทักษะ (Skills)</h2>
+            <div class="skill-group">
+                <h3>Programming Languages</h3>
+                <p>Python, C, HTML, CSS</p>
+            </div>
+            <div class="skill-group">
+                <h3>Data</h3>
+                <p>SQL</p>
+            </div>
+            <div class="skill-group">
+                <h3>Tools</h3>
+                <p>VS Code, Git, Google Colab</p>
+            </div>
+            <div class="skill-group">
+                <h3>Soft Skills</h3>
+                <p>Teamwork, Communication, Problem Solving</p>
+            </div>
+        </section>
+
+        <section class="section projects">
+            <h2>💡 ผลงานที่ผ่านมา (Project/Portfolio)</h2>
+            <div class="project-card">
+                <h3>Ai ทำนายพฤติกรรมการสมัครสมาชิกของ Netflix</h3>
+                <p class="project-description">โครงการนี้ใช้ AI เพื่อวิเคราะห์และทำนายพฤติกรรมการสมัครสมาชิก</p>
+                <a href="https://github.com/mamamhiya/Noob_AIText" target="_blank" class="project-link">ดูโปรเจกต์บน GitHub</a>
+            </div>
+        </section>
+
+        <section class="section education">
+            <h2>🎓 การศึกษา</h2>
+            <p class="edu-title">มหาวิทยาลัยราชภัฏอุดรธานี</p>
+            <p class="edu-detail">คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</p>
+        </section>
+        
+        <section class="section activities">
+            <h2>กิจกรรมและผลงาน</h2>
+            <p>ไม่มีกิจกรรมหรือผลงานที่โดดเด่นในปัจจุบัน</p>
+        </section>
+
+        <footer class="contact-footer">
+            <h2>ติดต่อ</h2>
+            <p>อีเมล: <a href="mailto:sukuyyo@gmail.com">sukuyyo@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/mamamhiya" target="_blank">https://github.com/mamamhiya</a></p>
+        </footer>
     </div>
 </body>
 </html>
